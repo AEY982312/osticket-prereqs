@@ -18,34 +18,45 @@
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- VM in Azure creation (Resource group, Windows10 with 2-4 VMs)
+- Access IIS Management Console
+- Register PHP within IIS and install osTicket(extract files and copy within c:\inetpub\wwwroot
+- Continue setting up osTicket in browser configure HeidiSQL create user and password.
 
 <h2>Installation Steps</h2>
+Creating the VM using windows 10, 4 vCPUs in Microsoft Azure to connect to RDP which will enable us to proceed with the process of creating the osTicketing system.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img> ![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/15151880-49eb-46b8-a8c1-53fc2f0495dc) <img>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Next would be to install IIS in Windows with CGI and common HTTP features.
+
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/6433d5df-28db-43ac-aa51-d22f4a97dc93)
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+IIS 
+
+  ![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/6dedbb06-61b8-4198-a02d-9cee5a329ac4)
+
+Download all installation files PHP Manager for IIS, Rewrite Module, VC_redist.x86.exe., as well as MySQL. I also registered PHP from within IIS in order for osTicket to function properly.
+
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/1a8b114b-3d2f-4058-afa2-c9430e26d1e1)
+SQL
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/639e67d5-f616-43d9-b947-8d26ab25b2fb)
+HEIDISQL
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/1f4d88cd-7bdb-4468-88f6-e99f606521de)
+REWRITE MODULE
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/f0894cda-0612-4ab0-ace5-bd70b7c07502)
+
+After ALL necessary files has been downloaded and files that are needed to be extracted were extracted I continued to proceed with fixing osTicket on the browser to ensure the admin and user acounts were made!
+
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/7894fea4-aa90-491e-9292-3a7e2e33b19e)
+
+![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/563a88a1-c605-45a9-914f-9f0362ce81bf)
+
+
+
+
 </p>
 <br />
