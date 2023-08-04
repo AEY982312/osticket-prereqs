@@ -30,7 +30,7 @@ Creating the VM using windows 10, 4 vCPUs in Microsoft Azure to connect to RDP w
 
 </p>
 
-Next would be to install IIS in Windows with CGI and common HTTP features.
+Next would be to install IIS in Windows with CGI and common HTTP features. Enabling IIS (Internet Information Services) in Windows and using GCI (Generic CGI) in the osTicket process is crucial for hosting the osTicket application on a Windows server. IIS serves as the web server platform that allows osTicket to be accessed by users over the internet. GCI, on the other hand, enables the execution of CGI scripts required for osTicket's functionality. By enabling IIS and utilizing GCI, organizations can provide a reliable and secure environment for osTicket, ensuring seamless access and efficient ticket management for users.
 
 ![image](https://github.com/AEY982312/osticket-prereqs/assets/116044851/6433d5df-28db-43ac-aa51-d22f4a97dc93)
 </p>
